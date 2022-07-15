@@ -9,6 +9,7 @@ interface Api {
   };
 }
 
+const defaultImg = "/movieHeroImages/defaultImage.jpeg";
 
 const MovieItem: React.FC<Api> = ({ movie }) => {
   return (
@@ -18,6 +19,15 @@ const MovieItem: React.FC<Api> = ({ movie }) => {
       onClick={() => console.log(movie.id)}
     >
       <h1>{movie.title}</h1>
+      <img
+        className="image"
+        src={process.env.PUBLIC_URL + `/movieHeroImages/${movie.id}.jpeg`}
+        onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) =>
+          ((e.target as HTMLImageElement).src =
+            process.env.PUBLIC_URL + defaultImg)
+        }
+        alt="movie-hero"
+      />
     </div>
   );
 };

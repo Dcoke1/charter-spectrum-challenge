@@ -1,6 +1,23 @@
-.movieItem { 
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 5%;
-    box-shadow: rgb(0 0 0 / 4%) 0rem 1.25rem 1.6875rem 0rem
+.movieItem {
+  background: rgb(255, 255, 255, 0.75);
+  margin: 1.5rem;
+  padding: 1.75rem;
+  border-radius: 3.5%;
+  box-shadow: rgb(0 0 0 / 7.5%) 0rem 1.25rem 1.6875rem 0rem;
+}
+.movieItem h1 {
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  max-width: 375px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.image {
+  width: 375px;
+  height: 300px;
+  border-radius: 3.5%;
 }

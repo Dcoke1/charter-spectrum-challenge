@@ -2,7 +2,7 @@ import React from "react";
 import "./css.css";
 
 const NoResults: React.FC = () => {
-  return <h1 className="noResults">No Results Available...</h1>;
+  return <span className="noResults">No Results Available...</span>;
 };
 
 export default NoResults;
