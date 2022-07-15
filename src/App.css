@@ -5,6 +5,8 @@ input {
   margin-top: 20vh;
   min-width: 400px;
   padding: 10px;
+  height: 1.5rem;
+  font-size: 1.25rem;
 }
 .results {
   display: flex;

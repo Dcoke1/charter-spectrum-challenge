@@ -3,7 +3,9 @@ import "./App.css";
 
 import MovieItem from "./Components/MovieItem/MovieItem";
 import NoResults from "./Components/NoResults/NoResults";
-const apikey: any = process.env.REACT_APP_CUSTOM_KEY;
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+
+const apikey: string | undefined = process.env.REACT_APP_CUSTOM_KEY!;
 
 const App: React.FC = (): JSX.Element => {
   const [data, setData] = useState([]);
@@ -53,6 +55,7 @@ const App: React.FC = (): JSX.Element => {
           data.map((b) => <MovieItem movie={b} />)
         )}
       </div>
+      <ScrollToTop />
     </div>
   );
 };

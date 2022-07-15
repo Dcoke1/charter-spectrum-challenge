@@ -1,0 +1,15 @@
+button {
+  position: fixed;
+  right: 1.5vw;
+  bottom: 40px;
+  font-size: 2rem;
+  z-index: 1;
+  cursor: pointer;
+  background: rgba(255,255,255);
+  color: rgb(58, 58, 58);
+  font-size: 18px;
+  padding: 1rem;
+  border-radius: 7.5%;
+  border-color: transparent;
+  box-shadow: rgb(0 0 0 / 10%) 0rem 1rem 1rem 0rem;
+}
