@@ -5,11 +5,12 @@ button {
   font-size: 2rem;
   z-index: 1;
   cursor: pointer;
-  background: rgba(255,255,255);
+  background: rgba(255,255,255, .9);
   color: rgb(58, 58, 58);
   font-size: 18px;
+  font-style: bolder;
   padding: 1rem;
-  border-radius: 7.5%;
+  border-radius: 7.5px;
   border-color: transparent;
   box-shadow: rgb(0 0 0 / 10%) 0rem 1rem 1rem 0rem;
 }
