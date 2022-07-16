@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/charter-spectrum-challenge/static/css/main.afe790dd.css",
-    "main.js": "/charter-spectrum-challenge/static/js/main.b280f45b.js",
+    "main.css": "/charter-spectrum-challenge/static/css/main.9d41afff.css",
+    "main.js": "/charter-spectrum-challenge/static/js/main.c87fd497.js",
     "index.html": "/charter-spectrum-challenge/index.html",
-    "main.afe790dd.css.map": "/charter-spectrum-challenge/static/css/main.afe790dd.css.map",
-    "main.b280f45b.js.map": "/charter-spectrum-challenge/static/js/main.b280f45b.js.map"
+    "main.9d41afff.css.map": "/charter-spectrum-challenge/static/css/main.9d41afff.css.map",
+    "main.c87fd497.js.map": "/charter-spectrum-challenge/static/js/main.c87fd497.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe790dd.css",
-    "static/js/main.b280f45b.js"
+    "static/css/main.9d41afff.css",
+    "static/js/main.c87fd497.js"
   ]
 }
