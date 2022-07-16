@@ -1,6 +1,6 @@
-button {
+.backToTop {
   position: fixed;
-  right: 1.5vw;
+  right: 1.25vw;
   bottom: 40px;
   font-size: 2rem;
   z-index: 1;
@@ -12,5 +12,5 @@ button {
   padding: 1rem;
   border-radius: 7.5px;
   border-color: transparent;
-  box-shadow: rgb(0 0 0 / 10%) 0rem 1rem 1rem 0rem;
+  box-shadow: 0 4px 6px rgb(32 33 36 / 38%);
 }

@@ -1,0 +1,43 @@
+.detail {
+    margin: 0 auto;
+    display: block;    
+    width: 500px;
+    text-align: center;
+}
+.detail ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+.detail li {
+    font-weight: bold;
+    list-style: none;
+}
+.detail button {
+    width: 250px;
+    font-size: 1.9rem;
+    cursor: pointer;
+    background: rgba(255,255,255, 1);
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+    font-style: bold;
+    padding: .75rem;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 0 2px 4px rgb(32 33 36 / 10%);
+}
+.subDetail {
+    padding: 1rem 2.5rem;
+}
+.cast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cast span{
+    padding: .4rem;
+}
